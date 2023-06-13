@@ -9,7 +9,11 @@ const PORT = process.env.PORT || 3001;
 
 // CORS
 app.use(function (req, res, next) {
-  const allowedOrigins = ["http://localhost:3000", "https://app.ottagon.com"];
+  const allowedOrigins = [
+    "http://localhost:3000",
+    "https://app.ottagon.com",
+    "https://future.ottagon.com",
+  ];
   const origin = req.headers.origin;
   if (allowedOrigins.includes(origin)) {
     res.setHeader("Access-Control-Allow-Origin", origin);
