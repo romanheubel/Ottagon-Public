@@ -10,7 +10,7 @@ function useUser() {
   const fetchUserPoints = useCallback(async () => {
     try {
       await axios
-        .get(`https://api.ottagon.com/users/points`)
+        .get(`https://future-api.ottagon.com/users/points`)
         .then((response) => {
           setPoints(response.data.points);
         });
@@ -23,7 +23,7 @@ function useUser() {
     try {
       await axios
         // This is the URL of the backend API + the route to the challenge endpoint
-        .get(`https://api.ottagon.com/users/challenge`)
+        .get(`https:/future-api.ottagon.com/users/challenge`)
         .then((response) => {
           setChallenge(response.data.challenge);
         });
