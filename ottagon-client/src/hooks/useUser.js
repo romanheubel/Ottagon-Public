@@ -9,9 +9,11 @@ function useUser() {
   // Function that fetches the user's current points
   const fetchUserPoints = useCallback(async () => {
     try {
-      await axios.get(`http://localhost:3001/users/points`).then((response) => {
-        setPoints(response.data.points);
-      });
+      await axios
+        .get(`https://app.ottagon.com/users/points`)
+        .then((response) => {
+          setPoints(response.data.points);
+        });
     } catch (error) {
       console.log(error);
     }
@@ -21,7 +23,7 @@ function useUser() {
     try {
       await axios
         // This is the URL of the backend API + the route to the challenge endpoint
-        .get(`http://localhost:3001/users/challenge`)
+        .get(`https://app.ottagon.com/users/challenge`)
         .then((response) => {
           setChallenge(response.data.challenge);
         });
