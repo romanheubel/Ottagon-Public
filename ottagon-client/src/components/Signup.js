@@ -28,7 +28,7 @@ export default function Signup() {
       setSubmitting(true);
       const response = await axios.post(
         // This is the URL of the backend API + the route to the signup endpoint
-        'http://localhost:3001/users/create',
+        'https://api.ottagon.com/users/create',
         data
       );
       console.log(response.data);
