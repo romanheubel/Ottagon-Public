@@ -1,0 +1,21 @@
+{
+  "name": "ottagon-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "ottagonAPI.js",
+  "scripts": {
+    "start": "node ottagonAPI.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "devStart": "env $(cat .env) nodemon ottagonAPI.js --ignore ./data/"
+  },
+  "keywords": [],
+  "author": "Roman Heubel",
+  "license": "",
+  "type": "module",
+  "dependencies": {
+    "@sendgrid/mail": "^7.7.0",
+    "express": "^4.17.1",
+    "fs-ext": "^2.0.0",
+    "joi": "^17.9.1"
+  }
+}

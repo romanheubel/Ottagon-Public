@@ -1,0 +1,101 @@
+{
+  "intro": [
+    {
+      "title": "Hey YOU! Yes you.",
+      "content": "This seems to be your first time around! Welcome to <strong>Ottagon!</strong> Let us now meet Judy, your new virtual friend.",
+      "hasImage": false
+    },
+    {
+      "title": "Hi! I'm Judy. ",
+      "content": "I'm a civil engineer and I work at Ottagon Inc. together with my colleagues Matthew, Phillip, and Sarah as well as my boss Mrs. Collela. I'm a very busy person and I get a lot of emails every day.",
+      "hasImage": true
+    },
+    {
+      "title": "Today is my birthday!",
+      "content": "I am off work and I am not checking my emails. I need your help sorting them!",
+      "hasImage": true
+    },
+    {
+      "title": "You're ready to start!",
+      "content": "In this first level you'll be presented with 10 emails. Your task is to have a look at them and press either the “trusted” or “spam” button. For this level no prior knowledge is needed. <strong>Let’s start whenever you’re comfortable and ready!</strong>",
+      "hasImage": false
+    }
+  ],
+  "training": [
+    {
+      "title": "Great! You made it through the first challenge!",
+      "content": "At this point you might have figured out that <strong>Ottagon is a platform to train you to deal with phishing attacks</strong>. Not just any type of phishing attacks but so called <strong>spear-phishing attacks</strong>. Let's start with a quick definition provided by chatGPT to understand the nature of spear-phishing.",
+      "hasImage": true
+    },
+    {
+      "title": "Phishing vs. Spear-Phishing",
+      "content": "Phishing is a broad term for cyber attacks where attackers cast a wide net by sending deceptive emails or messages to trick individuals into revealing sensitive information or performing certain actions. In contrast, <strong>spear-phishing is a targeted form of phishing where attackers customize their attacks to specific individuals or groups, making the messages more convincing and increasing the likelihood of success.</strong><br> — chatGPT",
+      "hasImage": true
+    },
+    {
+      "title": "How am I at risk?",
+      "content": "You would become the target of a spear-phishing cyber attack if you for example know about sensitive information that in the wrong hands could cause harm to your company, school, or even your personal life.<br><br> Just like a spear in the past would've killed one specific fish, a spear-phishing attack is targeted at one specific person or group. <strong>That person could be you!</strong>",
+      "hasImage": true
+    },
+    {
+      "title": "Training Session: Welcome",
+      "content": "Here on the Ottagon platform you act on behalf of Judy. She is the fictional character you read about at the beginning. <strong>Instead of putting your personal email inbox at risk, Ottagon provides you with a virtual, fun experience to learn how to protect yourself against spear-phishing attacks</strong> in the real world.",
+      "hasImage": false
+    },
+    {
+      "title": "Training Session: Overview",
+      "content": "Here are the two key things you will learn in this training session. <br><br> <ul><li>You will get to know more about Judy</li><br><li>You will learn the basics on how to spot a spear-phishing email</li></ul> <br> <strong>Let's start with the first one!</strong>",
+      "hasImage": false
+    },
+    {
+      "title": "Hi again! I'm Judy. ",
+      "content": "In order to figure out if an email is genuine or not it is of course important for you to know who I am and who sends emails to me. <br><br> <strong>Let's start with a quick introduction of myself.</strong>",
+      "hasImage": true
+    },
+    {
+      "title": "About me, my job, and my life.  ",
+      "content": "I am a civil engineer and I work at Ottagon Inc. together with my colleagues Matthew, Phillip, and Sarah as well as my boss Mrs. Collela. Sometimes I also work with Jennifer or David if we have bigger projects that span across multiple departments. <br><br> I am also a very active person. I love to go hiking and I have a cat and a dog at home.",
+      "hasImage": true
+    },
+    {
+      "title": "My schedule and my inbox.",
+      "content": "At all times you will have access to my weekly schedule. I hope it will help you in the process of figuring out if an email is suspicious or not. <br> I mostly get emails from my colleagues. Sometimes I of course get messages from other people or organizations, but take caution with emails from senders I do not recognize!<br><br> <strong>Now that you know a bit more about me, let's move on to the second part of this training session.</strong>",
+      "hasImage": true
+    },
+    {
+      "title": "Back to spear-phishing.",
+      "content": "There are some characteristics of spear-phishing emails that you should be aware of and that can help you identify them. <br><br> <strong>Let's have a look.</strong>",
+      "hasImage": false
+    },
+    {
+      "title": "Look out for these:",
+      "content": "<ul><li><strong>Check the senders identity: </strong>Sometimes even small spelling mistakes in the senders display name or email address can be a hint</li><li><strong>Urgency:</strong> Spear-phishing mails often ask you to act promptly </li><li><strong>Personal information: </strong>Be very cautious if someone asks for a lot of data or personal information</li></ul>",
+      "hasImage": false
+    },
+    {
+      "title": "... and look out for these as well:",
+      "content": "<ul><li><strong>Relationships: </strong>Does Judy know the sender and if not why would that person want to engage with her?</li><li><strong>Long term attacks: </strong>Some adversaries send harmless emails first before they ask for information later on</li><li><strong>Hacked accounts: </strong>Although an email appears to come from a genuine email address does not mean the owner of that address is the person sending the email</li></ul>",
+      "hasImage": false
+    },
+    {
+      "title": "Links and attachments.",
+      "content": "And as with phishing and spam mails in general: You should always be careful with links and attachments as they can point to or contain harmful contents. ",
+      "hasImage": false
+    },
+    {
+      "title": "Tools at your fingertips.",
+      "content": "While you explore Ottagon, you will always have access to the following tools: <ul><li>Judy's schedule (bottom left corner)</li><li>Training material (top right corner)</li><li>All emails in the inbox</li></ul>You can always click on any email you would like to read and do not have to follow the order of the emails. Pro tip: Sometimes reading a few more emails can help you to better understand the context of the email you are currently viewing. ",
+      "hasImage": false
+    },
+    {
+      "title": "You're good to proceed!",
+      "content": "<strong>Now that you know what to look out for, let's move on to the next challenge!</strong> Of course, you will always have access to this training material again from the top right corner of the platform. <br><br> <strong>Let's go!</strong>"
+    }
+  ],
+  "end": [
+    {
+      "title": "That's it for today!",
+      "content": "Thank you so much! You finished the first session of this training. <strong>You will get a reminder to come back here by email next week.</strong> <br><br>— Roman <br><br> You can now close Ottagon."
+    }
+  ]
+}
