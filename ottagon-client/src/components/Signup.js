@@ -28,7 +28,7 @@ export default function Signup() {
       setSubmitting(true);
       const response = await axios.post(
         // This is the URL of the backend API + the route to the signup endpoint
-        'https://future-api.ottagon.com/users/create',
+        'http://localhost:3001/users/create',
         data
       );
       console.log(response.data);

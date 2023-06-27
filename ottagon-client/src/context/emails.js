@@ -32,9 +32,7 @@ function Provider({ children }) {
       try {
         await axios
           // This is the URL of the backend API + the route to the folder endpoint
-          .get(
-            `https://future-api.ottagon.com/emails/folder/${folder.toLowerCase()}`
-          )
+          .get(`http://localhost:3001/emails/folder/${folder.toLowerCase()}`)
           .then((response) => {
             setEmails(response.data);
             setFoldersUpdated(false);
@@ -51,7 +49,7 @@ function Provider({ children }) {
       try {
         await axios
           // This is the URL of the backend API + the route to the judge endpoint
-          .post(`https://future-api.ottagon.com/emails/judge`, {
+          .post(`http://localhost:3001/emails/judge`, {
             emailID,
             isPhish,
           })

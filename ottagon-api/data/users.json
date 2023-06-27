@@ -1,1 +1,42 @@
-[{"id":"396678","signUpDate":"2023-06-12T15:13:18.069Z","firstname":"Roman","lastname":"Heubel","age":"24","gender":"male","itexperience":"true","email":"rheu@itu.dk","terms":true,"token":"vxnmsuyr7tqrgdycp0eib","currentChallenge":2,"challenges":[{"challenge":0,"falseNegative":2,"falsePositive":4,"trueNegative":3,"truePositive":1},{"challenge":1,"falseNegative":4,"falsePositive":1,"trueNegative":14,"truePositive":1},{"challenge":2,"falseNegative":0,"falsePositive":1,"trueNegative":7,"truePositive":0}],"points":2,"trusted":[17,13,1,27,7,2,30,3],"spam":[5,8,9,12,18,19,24,29],"inbox":[4,6,10,11,14,15,16,20,21,22,23,25,26,28]}]
+[
+  {
+    "id": "396678",
+    "signUpDate": "2023-06-12T15:13:18.069Z",
+    "firstname": "Roman",
+    "lastname": "Heubel",
+    "age": "24",
+    "gender": "male",
+    "itexperience": "true",
+    "email": "rheu@itu.dk",
+    "terms": true,
+    "token": "vxnmsuyr7tqrgdycp0eib",
+    "currentChallenge": 2,
+    "challenges": [
+      {
+        "challenge": 0,
+        "falseNegative": 2,
+        "falsePositive": 4,
+        "trueNegative": 3,
+        "truePositive": 1
+      },
+      {
+        "challenge": 1,
+        "falseNegative": 4,
+        "falsePositive": 1,
+        "trueNegative": 14,
+        "truePositive": 1
+      },
+      {
+        "challenge": 2,
+        "falseNegative": 0,
+        "falsePositive": 1,
+        "trueNegative": 8,
+        "truePositive": 0
+      }
+    ],
+    "points": 2,
+    "trusted": [17, 13, 1, 27, 7, 2, 30, 3, 4],
+    "spam": [5, 8, 9, 12, 18, 19, 24, 29],
+    "inbox": [6, 10, 11, 14, 15, 16, 20, 21, 22, 23, 25, 26, 28]
+  }
+]
